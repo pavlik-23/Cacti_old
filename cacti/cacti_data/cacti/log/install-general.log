@@ -1,0 +1,172 @@
+[2021-02-03 15:54:09] [ always  ] Spawning background process: /usr/bin/php '/var/www/html/cacti/install/background.php' 1612360449.8125
+[2021-02-03 15:54:10] [ always  ] Setting PHP Option max_execution_time = 0
+[2021-02-03 15:54:10] [ always  ] Setting PHP Option memory_limit = -1
+[2021-02-03 15:54:11] [ always  ] Starting INSTALL Process for v1.2.16
+[2021-02-03 15:54:11] [ always  ] No tables where found or selected for conversion
+[2021-02-03 15:54:11] [ always  ] Found 6 templates to install
+[2021-02-03 15:54:11] [ always  ] About to import Package #1 'Cacti_Stats.xml.gz'.
+[2021-02-03 15:54:18] [ always  ] Import of Package #1 'Cacti_Stats.xml.gz' under Profile '1' succeeded
+[2021-02-03 15:54:18] [ always  ] About to import Package #2 'Cisco_Router.xml.gz'.
+[2021-02-03 15:54:22] [ always  ] Import of Package #2 'Cisco_Router.xml.gz' under Profile '1' succeeded
+[2021-02-03 15:54:22] [ always  ] About to import Package #3 'Generic_SNMP_Device.xml.gz'.
+[2021-02-03 15:54:25] [ always  ] Import of Package #3 'Generic_SNMP_Device.xml.gz' under Profile '1' succeeded
+[2021-02-03 15:54:25] [ always  ] About to import Package #4 'Local_Linux_Machine.xml.gz'.
+[2021-02-03 15:54:26] [ always  ] Import of Package #4 'Local_Linux_Machine.xml.gz' under Profile '1' succeeded
+[2021-02-03 15:54:26] [ always  ] About to import Package #5 'NetSNMP_Device.xml.gz'.
+[2021-02-03 15:54:34] [ always  ] Import of Package #5 'NetSNMP_Device.xml.gz' under Profile '1' succeeded
+[2021-02-03 15:54:34] [ always  ] About to import Package #6 'Windows_Device.xml.gz'.
+[2021-02-03 15:54:37] [ always  ] Import of Package #6 'Windows_Device.xml.gz' under Profile '1' succeeded
+[2021-02-03 15:54:37] [ always  ] Repairing Automation Rules
+[2021-02-03 15:54:37] [ always  ] Mapping Automation Template for Device Template 'Net-SNMP Device'
+[2021-02-03 15:54:37] [ always  ] Mapping Automation Template for Device Template 'Windows Device'
+[2021-02-03 15:54:37] [ always  ] Mapping Automation Template for Device Template 'Cisco Router'
+[2021-02-03 15:54:37] [ always  ] Updating automation network (1), mode "on" => "on", subnet "192.168.1.0/24" => 192.168.1.0/24"
+[2021-02-03 15:54:37] [ always  ] Device Template for First Cacti Device is 4
+[2021-02-03 15:54:39] [ always  ] Creating Graphs for Default Device
+[2021-02-03 15:54:39] [ always  ] Adding Device to Default Tree
+[2021-02-03 15:54:40] [ always  ] Repopulating poller cache
+[2021-02-03 15:54:40] [ always  ] Repopulating SNMP Agent cache
+[2021-02-03 15:54:41] [ always  ] Generating RSA Key Pair
+[2021-02-03 15:54:41] [ always  ] Finished INSTALL Process for v1.2.16
+[2021-02-03 15:54:41] [ always  ] Installation was started at 2021-02-03 13:54:10, completed at 2021-02-03 13:54:41
+[2021-02-05 17:59:17] [ always  ] Spawning background process: /usr/bin/php '/var/www/html/cacti/install/background.php' 1612540757.6045
+[2021-02-05 17:59:18] [ always  ] Setting PHP Option max_execution_time = 0
+[2021-02-05 17:59:18] [ always  ] Setting PHP Option memory_limit = -1
+[2021-02-05 17:59:19] [ always  ] Starting INSTALL Process for v1.2.16
+[2021-02-05 17:59:19] [ always  ] Found 110 tables to convert
+[2021-02-05 17:59:19] [ always  ] Converting Table #1 'aggregate_graphs'
+[2021-02-05 17:59:20] [ always  ] Converting Table #2 'aggregate_graphs_graph_item'
+[2021-02-05 17:59:20] [ always  ] Converting Table #3 'aggregate_graphs_items'
+[2021-02-05 17:59:21] [ always  ] Converting Table #4 'aggregate_graph_templates'
+[2021-02-05 17:59:21] [ always  ] Converting Table #5 'aggregate_graph_templates_graph'
+[2021-02-05 17:59:22] [ always  ] Converting Table #6 'aggregate_graph_templates_item'
+[2021-02-05 17:59:22] [ always  ] Converting Table #7 'automation_devices'
+[2021-02-05 17:59:23] [ always  ] Converting Table #8 'automation_graph_rules'
+[2021-02-05 17:59:23] [ always  ] Converting Table #9 'automation_graph_rule_items'
+[2021-02-05 17:59:23] [ always  ] Converting Table #10 'automation_ips'
+[2021-02-05 17:59:24] [ always  ] Converting Table #11 'automation_match_rule_items'
+[2021-02-05 17:59:24] [ always  ] Converting Table #12 'automation_networks'
+[2021-02-05 17:59:25] [ always  ] Converting Table #13 'automation_processes'
+[2021-02-05 17:59:25] [ always  ] Converting Table #14 'automation_snmp'
+[2021-02-05 17:59:26] [ always  ] Converting Table #15 'automation_snmp_items'
+[2021-02-05 17:59:26] [ always  ] Converting Table #16 'automation_templates'
+[2021-02-05 17:59:26] [ always  ] Converting Table #17 'automation_tree_rules'
+[2021-02-05 17:59:27] [ always  ] Converting Table #18 'automation_tree_rule_items'
+[2021-02-05 17:59:27] [ always  ] Converting Table #19 'cdef'
+[2021-02-05 17:59:28] [ always  ] Converting Table #20 'cdef_items'
+[2021-02-05 17:59:28] [ always  ] Converting Table #21 'colors'
+[2021-02-05 17:59:29] [ always  ] Converting Table #22 'color_templates'
+[2021-02-05 17:59:29] [ always  ] Converting Table #23 'color_template_items'
+[2021-02-05 17:59:29] [ always  ] Converting Table #24 'data_debug'
+[2021-02-05 17:59:30] [ always  ] Converting Table #25 'data_input'
+[2021-02-05 17:59:30] [ always  ] Converting Table #26 'data_input_data'
+[2021-02-05 17:59:31] [ always  ] Converting Table #27 'data_input_fields'
+[2021-02-05 17:59:31] [ always  ] Converting Table #28 'data_local'
+[2021-02-05 17:59:32] [ always  ] Converting Table #29 'data_source_profiles'
+[2021-02-05 17:59:32] [ always  ] Converting Table #30 'data_source_profiles_cf'
+[2021-02-05 17:59:32] [ always  ] Converting Table #31 'data_source_profiles_rra'
+[2021-02-05 17:59:33] [ always  ] Converting Table #32 'data_source_purge_action'
+[2021-02-05 17:59:33] [ always  ] Converting Table #33 'data_source_purge_temp'
+[2021-02-05 17:59:34] [ always  ] Converting Table #34 'data_source_stats_daily'
+[2021-02-05 17:59:34] [ always  ] Converting Table #35 'data_source_stats_hourly'
+[2021-02-05 17:59:34] [ always  ] Converting Table #36 'data_source_stats_hourly_cache'
+[2021-02-05 17:59:35] [ always  ] Converting Table #37 'data_source_stats_hourly_last'
+[2021-02-05 17:59:35] [ always  ] Converting Table #38 'data_source_stats_monthly'
+[2021-02-05 17:59:36] [ always  ] Converting Table #39 'data_source_stats_weekly'
+[2021-02-05 17:59:36] [ always  ] Converting Table #40 'data_source_stats_yearly'
+[2021-02-05 17:59:37] [ always  ] Converting Table #41 'data_template'
+[2021-02-05 17:59:37] [ always  ] Converting Table #42 'data_template_data'
+[2021-02-05 17:59:38] [ always  ] Converting Table #43 'data_template_rrd'
+[2021-02-05 17:59:38] [ always  ] Converting Table #44 'external_links'
+[2021-02-05 17:59:39] [ always  ] Converting Table #45 'graph_local'
+[2021-02-05 17:59:39] [ always  ] Converting Table #46 'graph_templates'
+[2021-02-05 17:59:39] [ always  ] Converting Table #47 'graph_templates_gprint'
+[2021-02-05 17:59:40] [ always  ] Converting Table #48 'graph_templates_graph'
+[2021-02-05 17:59:40] [ always  ] Converting Table #49 'graph_templates_item'
+[2021-02-05 17:59:41] [ always  ] Converting Table #50 'graph_template_input'
+[2021-02-05 17:59:41] [ always  ] Converting Table #51 'graph_template_input_defs'
+[2021-02-05 17:59:41] [ always  ] Converting Table #52 'graph_tree'
+[2021-02-05 17:59:42] [ always  ] Converting Table #53 'graph_tree_items'
+[2021-02-05 17:59:42] [ always  ] Converting Table #54 'host'
+[2021-02-05 17:59:43] [ always  ] Converting Table #55 'host_graph'
+[2021-02-05 17:59:43] [ always  ] Converting Table #56 'host_snmp_cache'
+[2021-02-05 17:59:44] [ always  ] Converting Table #57 'host_snmp_query'
+[2021-02-05 17:59:44] [ always  ] Converting Table #58 'host_template'
+[2021-02-05 17:59:45] [ always  ] Converting Table #59 'host_template_graph'
+[2021-02-05 17:59:45] [ always  ] Converting Table #60 'host_template_snmp_query'
+[2021-02-05 17:59:45] [ always  ] Converting Table #61 'plugin_config'
+[2021-02-05 17:59:46] [ always  ] Converting Table #62 'plugin_db_changes'
+[2021-02-05 17:59:46] [ always  ] Converting Table #63 'plugin_hooks'
+[2021-02-05 17:59:47] [ always  ] Converting Table #64 'plugin_realms'
+[2021-02-05 17:59:47] [ always  ] Converting Table #65 'poller'
+[2021-02-05 17:59:48] [ always  ] Converting Table #66 'poller_command'
+[2021-02-05 17:59:48] [ always  ] Converting Table #67 'poller_data_template_field_mappings'
+[2021-02-05 17:59:49] [ always  ] Converting Table #68 'poller_item'
+[2021-02-05 17:59:49] [ always  ] Converting Table #69 'poller_output'
+[2021-02-05 17:59:50] [ always  ] Converting Table #70 'poller_output_boost'
+[2021-02-05 17:59:50] [ always  ] Converting Table #71 'poller_output_boost_processes'
+[2021-02-05 17:59:51] [ always  ] Converting Table #72 'poller_output_realtime'
+[2021-02-05 17:59:51] [ always  ] Converting Table #73 'poller_reindex'
+[2021-02-05 17:59:52] [ always  ] Converting Table #74 'poller_resource_cache'
+[2021-02-05 17:59:52] [ always  ] Converting Table #75 'poller_time'
+[2021-02-05 17:59:52] [ always  ] Converting Table #76 'processes'
+[2021-02-05 17:59:53] [ always  ] Converting Table #77 'reports'
+[2021-02-05 17:59:53] [ always  ] Converting Table #78 'reports_items'
+[2021-02-05 17:59:54] [ always  ] Converting Table #79 'sessions'
+[2021-02-05 17:59:54] [ always  ] Converting Table #80 'settings'
+[2021-02-05 17:59:54] [ always  ] Converting Table #81 'settings_tree'
+[2021-02-05 17:59:55] [ always  ] Converting Table #82 'settings_user'
+[2021-02-05 17:59:55] [ always  ] Converting Table #83 'settings_user_group'
+[2021-02-05 17:59:56] [ always  ] Converting Table #84 'sites'
+[2021-02-05 17:59:56] [ always  ] Converting Table #85 'snmpagent_cache'
+[2021-02-05 17:59:57] [ always  ] Converting Table #86 'snmpagent_cache_notifications'
+[2021-02-05 17:59:57] [ always  ] Converting Table #87 'snmpagent_cache_textual_conventions'
+[2021-02-05 17:59:58] [ always  ] Converting Table #88 'snmpagent_managers'
+[2021-02-05 17:59:58] [ always  ] Converting Table #89 'snmpagent_managers_notifications'
+[2021-02-05 17:59:59] [ always  ] Converting Table #90 'snmpagent_mibs'
+[2021-02-05 17:59:59] [ always  ] Converting Table #91 'snmpagent_notifications_log'
+[2021-02-05 17:59:59] [ always  ] Converting Table #92 'snmp_query'
+[2021-02-05 18:00:00] [ always  ] Converting Table #93 'snmp_query_graph'
+[2021-02-05 18:00:01] [ always  ] Converting Table #94 'snmp_query_graph_rrd'
+[2021-02-05 18:00:01] [ always  ] Converting Table #95 'snmp_query_graph_rrd_sv'
+[2021-02-05 18:00:02] [ always  ] Converting Table #96 'snmp_query_graph_sv'
+[2021-02-05 18:00:03] [ always  ] Converting Table #97 'user_auth'
+[2021-02-05 18:00:03] [ always  ] Converting Table #98 'user_auth_cache'
+[2021-02-05 18:00:04] [ always  ] Converting Table #99 'user_auth_group'
+[2021-02-05 18:00:04] [ always  ] Converting Table #100 'user_auth_group_members'
+[2021-02-05 18:00:04] [ always  ] Converting Table #101 'user_auth_group_perms'
+[2021-02-05 18:00:05] [ always  ] Converting Table #102 'user_auth_group_realm'
+[2021-02-05 18:00:05] [ always  ] Converting Table #103 'user_auth_perms'
+[2021-02-05 18:00:06] [ always  ] Converting Table #104 'user_auth_realm'
+[2021-02-05 18:00:07] [ always  ] Converting Table #105 'user_domains'
+[2021-02-05 18:00:07] [ always  ] Converting Table #106 'user_domains_ldap'
+[2021-02-05 18:00:07] [ always  ] Converting Table #107 'user_log'
+[2021-02-05 18:00:08] [ always  ] Converting Table #108 'vdef'
+[2021-02-05 18:00:08] [ always  ] Converting Table #109 'vdef_items'
+[2021-02-05 18:00:09] [ always  ] Converting Table #110 'version'
+[2021-02-05 18:00:09] [ always  ] Found 6 templates to install
+[2021-02-05 18:00:09] [ always  ] About to import Package #1 'Cacti_Stats.xml.gz'.
+[2021-02-05 18:00:18] [ always  ] Import of Package #1 'Cacti_Stats.xml.gz' under Profile '1' succeeded
+[2021-02-05 18:00:18] [ always  ] About to import Package #2 'Cisco_Router.xml.gz'.
+[2021-02-05 18:00:25] [ always  ] Import of Package #2 'Cisco_Router.xml.gz' under Profile '1' succeeded
+[2021-02-05 18:00:25] [ always  ] About to import Package #3 'Generic_SNMP_Device.xml.gz'.
+[2021-02-05 18:00:28] [ always  ] Import of Package #3 'Generic_SNMP_Device.xml.gz' under Profile '1' succeeded
+[2021-02-05 18:00:28] [ always  ] About to import Package #4 'Local_Linux_Machine.xml.gz'.
+[2021-02-05 18:00:30] [ always  ] Import of Package #4 'Local_Linux_Machine.xml.gz' under Profile '1' succeeded
+[2021-02-05 18:00:30] [ always  ] About to import Package #5 'NetSNMP_Device.xml.gz'.
+[2021-02-05 18:00:40] [ always  ] Import of Package #5 'NetSNMP_Device.xml.gz' under Profile '1' succeeded
+[2021-02-05 18:00:40] [ always  ] About to import Package #6 'Windows_Device.xml.gz'.
+[2021-02-05 18:00:45] [ always  ] Import of Package #6 'Windows_Device.xml.gz' under Profile '1' succeeded
+[2021-02-05 18:00:45] [ always  ] Repairing Automation Rules
+[2021-02-05 18:00:45] [ always  ] Mapping Automation Template for Device Template 'Net-SNMP Device'
+[2021-02-05 18:00:45] [ always  ] Mapping Automation Template for Device Template 'Windows Device'
+[2021-02-05 18:00:45] [ always  ] Mapping Automation Template for Device Template 'Cisco Router'
+[2021-02-05 18:00:46] [ always  ] Updating automation network (1), mode "on" => "on", subnet "192.168.1.0/24" => 192.168.1.0/24"
+[2021-02-05 18:00:46] [ always  ] Device Template for First Cacti Device is 4
+[2021-02-05 18:00:48] [ always  ] Creating Graphs for Default Device
+[2021-02-05 18:00:48] [ always  ] Adding Device to Default Tree
+[2021-02-05 18:00:48] [ always  ] Repopulating poller cache
+[2021-02-05 18:00:48] [ always  ] Repopulating SNMP Agent cache
+[2021-02-05 18:00:50] [ always  ] Generating RSA Key Pair
+[2021-02-05 18:00:50] [ always  ] Finished INSTALL Process for v1.2.16
+[2021-02-05 18:00:50] [ always  ] Installation was started at 2021-02-05 15:59:18, completed at 2021-02-05 16:00:50

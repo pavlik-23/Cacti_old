@@ -1,0 +1,32 @@
+version: '2'
+services:
+  cacti:
+    image: cacti
+    restart: always
+    ports:
+     - "7080:80"
+    volumes:
+     - "./cacti_data/cacti:/var/www/html/cacti"
+     - "./config/cron.d:/etc/cron.d"
+     - "./mysqldump:/home/mysqldump"
+     - "./cacti_data/rra:/var/lib/cacti/rra"
+     - "./config/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf"
+     - "./config/apache2.sh:/etc/apache2.sh"
+     - "./config/snmp.conf:/etc/snmp/snmp.conf"
+     - "./config/snmpd.conf:/etc//snmp/snmpd.conf"
+     - "./config/conf-enabled:/etc/apache2/conf-enabled"
+     - "./config/php.ini:/etc/php/7.3/apache2/php.ini"
+     - "./config/cli/php.ini:/etc/php/7.3/cli/php.ini"
+     - "./config/cacti_dump.sh:/home/cacti_dump.sh"
+    links:
+     - "db"
+  db:
+    image: mariadb
+    restart: always
+    volumes:
+    - "./mysql:/var/lib/mysql:rw"
+    - "./config/my.cnf:/etc/mysql/my.cnf"
+    environment:
+    - MYSQL_ROOT_PASSWORD=root
+    - TZ=Europe/Chisinau
+ 

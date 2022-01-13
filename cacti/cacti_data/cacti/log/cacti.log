@@ -1,0 +1,573 @@
+2021/02/03 15:51:13 - AUTH LOGIN: User 'admin' Authenticated
+2021-02-03 15:54:09 - INSTALL: always: Spawning background process: /usr/bin/php '/var/www/html/cacti/install/background.php' 1612360449.8125
+2021-02-03 15:54:10 - INSTALL: Checking arguments
+2021-02-03 15:54:10 - INSTALL: always: Setting PHP Option max_execution_time = 0
+2021-02-03 15:54:10 - INSTALL: always: Setting PHP Option memory_limit = -1
+2021-02-03 15:54:11 - INSTALL: always: Starting INSTALL Process for v1.2.16
+2021-02-03 15:54:11 - INSTALL: always: No tables where found or selected for conversion
+2021-02-03 15:54:11 - INSTALL: always: Found 6 templates to install
+2021-02-03 15:54:11 - INSTALL: always: About to import Package #1 'Cacti_Stats.xml.gz'.
+2021-02-03 15:54:11 - IMPORT NOTE: Got Package Signature
+2021-02-03 15:54:11 - IMPORT NOTE: File is Signed Correctly
+2021-02-03 15:54:11 - IMPORT Loading Plugin Information from package
+2021-02-03 15:54:11 - IMPORT Verifying each files signature
+2021-02-03 15:54:11 - IMPORT NOTE: File OK: scripts/ss_poller.php
+2021-02-03 15:54:11 - IMPORT NOTE: File OK: scripts/cacti_user_stats.php
+2021-02-03 15:54:11 - IMPORT NOTE: File OK: resource/script_server/cpoller.xml
+2021-02-03 15:54:11 - IMPORT NOTE: File OK: resource/script_server/webseer.xml
+2021-02-03 15:54:11 - IMPORT NOTE: File OK: resource/script_server/gexport.xml
+2021-02-03 15:54:11 - IMPORT NOTE: File OK: scripts/ss_cpoller.php
+2021-02-03 15:54:11 - IMPORT NOTE: File OK: scripts/ss_webseer.php
+2021-02-03 15:54:11 - IMPORT NOTE: File OK: scripts/ss_gexport.php
+2021-02-03 15:54:11 - IMPORT NOTE: File OK: Cacti_Stats.xml
+2021-02-03 15:54:11 - IMPORT Writing Files
+2021-02-03 15:54:11 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_poller.php
+2021-02-03 15:54:11 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_poller.php, with Status written
+2021-02-03 15:54:11 - IMPORT Writing file: /var/www/html/cacti/scripts/cacti_user_stats.php
+2021-02-03 15:54:11 - IMPORT Write Status file: /var/www/html/cacti/scripts/cacti_user_stats.php, with Status written
+2021-02-03 15:54:11 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/cpoller.xml
+2021-02-03 15:54:11 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/cpoller.xml, with Status written
+2021-02-03 15:54:11 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/webseer.xml
+2021-02-03 15:54:11 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/webseer.xml, with Status written
+2021-02-03 15:54:11 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/gexport.xml
+2021-02-03 15:54:11 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/gexport.xml, with Status written
+2021-02-03 15:54:11 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_cpoller.php
+2021-02-03 15:54:11 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_cpoller.php, with Status written
+2021-02-03 15:54:11 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_webseer.php
+2021-02-03 15:54:11 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_webseer.php, with Status written
+2021-02-03 15:54:12 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_gexport.php
+2021-02-03 15:54:12 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_gexport.php, with Status written
+2021-02-03 15:54:12 - IMPORT Importing XML Data for Cacti_Stats.xml
+2021-02-03 15:54:18 - IMPORT File creation complete
+2021-02-03 15:54:18 - INSTALL: always: Import of Package #1 'Cacti_Stats.xml.gz' under Profile '1' succeeded
+2021-02-03 15:54:18 - INSTALL: always: About to import Package #2 'Cisco_Router.xml.gz'.
+2021-02-03 15:54:18 - IMPORT NOTE: Got Package Signature
+2021-02-03 15:54:18 - IMPORT NOTE: File is Signed Correctly
+2021-02-03 15:54:18 - IMPORT Loading Plugin Information from package
+2021-02-03 15:54:18 - IMPORT Verifying each files signature
+2021-02-03 15:54:18 - IMPORT NOTE: File OK: scripts/ss_hstats.php
+2021-02-03 15:54:18 - IMPORT NOTE: File OK: resource/snmp_queries/interface.xml
+2021-02-03 15:54:18 - IMPORT NOTE: File OK: Cisco_Router.xml
+2021-02-03 15:54:18 - IMPORT Writing Files
+2021-02-03 15:54:18 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_hstats.php
+2021-02-03 15:54:18 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_hstats.php, with Status written
+2021-02-03 15:54:18 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/interface.xml
+2021-02-03 15:54:18 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/interface.xml, with Status written
+2021-02-03 15:54:18 - IMPORT Importing XML Data for Cisco_Router.xml
+2021-02-03 15:54:22 - IMPORT File creation complete
+2021-02-03 15:54:22 - INSTALL: always: Import of Package #2 'Cisco_Router.xml.gz' under Profile '1' succeeded
+2021-02-03 15:54:22 - INSTALL: always: About to import Package #3 'Generic_SNMP_Device.xml.gz'.
+2021-02-03 15:54:22 - IMPORT NOTE: Got Package Signature
+2021-02-03 15:54:22 - IMPORT NOTE: File is Signed Correctly
+2021-02-03 15:54:22 - IMPORT Loading Plugin Information from package
+2021-02-03 15:54:22 - IMPORT Verifying each files signature
+2021-02-03 15:54:22 - IMPORT NOTE: File OK: scripts/ss_hstats.php
+2021-02-03 15:54:22 - IMPORT NOTE: File OK: scripts/ping.pl
+2021-02-03 15:54:22 - IMPORT NOTE: File OK: resource/snmp_queries/interface.xml
+2021-02-03 15:54:22 - IMPORT NOTE: File OK: Generic_SNMP_Device.xml
+2021-02-03 15:54:22 - IMPORT Writing Files
+2021-02-03 15:54:22 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_hstats.php
+2021-02-03 15:54:22 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_hstats.php, with Status written
+2021-02-03 15:54:22 - IMPORT Writing file: /var/www/html/cacti/scripts/ping.pl
+2021-02-03 15:54:22 - IMPORT Write Status file: /var/www/html/cacti/scripts/ping.pl, with Status written
+2021-02-03 15:54:22 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/interface.xml
+2021-02-03 15:54:22 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/interface.xml, with Status written
+2021-02-03 15:54:22 - IMPORT Importing XML Data for Generic_SNMP_Device.xml
+2021-02-03 15:54:25 - IMPORT File creation complete
+2021-02-03 15:54:25 - INSTALL: always: Import of Package #3 'Generic_SNMP_Device.xml.gz' under Profile '1' succeeded
+2021-02-03 15:54:25 - INSTALL: always: About to import Package #4 'Local_Linux_Machine.xml.gz'.
+2021-02-03 15:54:25 - IMPORT NOTE: Got Package Signature
+2021-02-03 15:54:25 - IMPORT NOTE: File is Signed Correctly
+2021-02-03 15:54:25 - IMPORT Loading Plugin Information from package
+2021-02-03 15:54:25 - IMPORT Verifying each files signature
+2021-02-03 15:54:25 - IMPORT NOTE: File OK: scripts/unix_processes.pl
+2021-02-03 15:54:25 - IMPORT NOTE: File OK: scripts/loadavg_multi.pl
+2021-02-03 15:54:25 - IMPORT NOTE: File OK: scripts/unix_users.pl
+2021-02-03 15:54:25 - IMPORT NOTE: File OK: scripts/linux_memory.pl
+2021-02-03 15:54:25 - IMPORT NOTE: File OK: resource/script_queries/unix_disk.xml
+2021-02-03 15:54:25 - IMPORT NOTE: File OK: scripts/query_unix_partitions.pl
+2021-02-03 15:54:25 - IMPORT NOTE: File OK: Local_Linux_Machine.xml
+2021-02-03 15:54:25 - IMPORT Writing Files
+2021-02-03 15:54:25 - IMPORT Writing file: /var/www/html/cacti/scripts/unix_processes.pl
+2021-02-03 15:54:25 - IMPORT Write Status file: /var/www/html/cacti/scripts/unix_processes.pl, with Status written
+2021-02-03 15:54:25 - IMPORT Writing file: /var/www/html/cacti/scripts/loadavg_multi.pl
+2021-02-03 15:54:25 - IMPORT Write Status file: /var/www/html/cacti/scripts/loadavg_multi.pl, with Status written
+2021-02-03 15:54:25 - IMPORT Writing file: /var/www/html/cacti/scripts/unix_users.pl
+2021-02-03 15:54:25 - IMPORT Write Status file: /var/www/html/cacti/scripts/unix_users.pl, with Status written
+2021-02-03 15:54:25 - IMPORT Writing file: /var/www/html/cacti/scripts/linux_memory.pl
+2021-02-03 15:54:25 - IMPORT Write Status file: /var/www/html/cacti/scripts/linux_memory.pl, with Status written
+2021-02-03 15:54:25 - IMPORT Writing file: /var/www/html/cacti/resource/script_queries/unix_disk.xml
+2021-02-03 15:54:25 - IMPORT Write Status file: /var/www/html/cacti/resource/script_queries/unix_disk.xml, with Status written
+2021-02-03 15:54:25 - IMPORT Writing file: /var/www/html/cacti/scripts/query_unix_partitions.pl
+2021-02-03 15:54:25 - IMPORT Write Status file: /var/www/html/cacti/scripts/query_unix_partitions.pl, with Status written
+2021-02-03 15:54:25 - IMPORT Importing XML Data for Local_Linux_Machine.xml
+2021-02-03 15:54:26 - IMPORT File creation complete
+2021-02-03 15:54:26 - INSTALL: always: Import of Package #4 'Local_Linux_Machine.xml.gz' under Profile '1' succeeded
+2021-02-03 15:54:26 - INSTALL: always: About to import Package #5 'NetSNMP_Device.xml.gz'.
+2021-02-03 15:54:26 - IMPORT NOTE: Got Package Signature
+2021-02-03 15:54:26 - IMPORT NOTE: File is Signed Correctly
+2021-02-03 15:54:26 - IMPORT Loading Plugin Information from package
+2021-02-03 15:54:26 - IMPORT Verifying each files signature
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: scripts/ss_hstats.php
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: scripts/ss_net_snmp_disk_io.php
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: scripts/ss_net_snmp_disk_bytes.php
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: resource/snmp_queries/interface.xml
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: resource/snmp_queries/net-snmp_disk.xml
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: resource/script_server/host_disk.xml
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: resource/script_server/host_cpu.xml
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: resource/snmp_queries/net-snmp_devio.xml
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: scripts/ss_host_disk.php
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: scripts/ss_host_cpu.php
+2021-02-03 15:54:26 - IMPORT NOTE: File OK: NetSNMP_Device.xml
+2021-02-03 15:54:27 - IMPORT Writing Files
+2021-02-03 15:54:27 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_hstats.php
+2021-02-03 15:54:27 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_hstats.php, with Status written
+2021-02-03 15:54:27 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_net_snmp_disk_io.php
+2021-02-03 15:54:27 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_net_snmp_disk_io.php, with Status written
+2021-02-03 15:54:27 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_net_snmp_disk_bytes.php
+2021-02-03 15:54:27 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_net_snmp_disk_bytes.php, with Status written
+2021-02-03 15:54:27 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/interface.xml
+2021-02-03 15:54:27 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/interface.xml, with Status written
+2021-02-03 15:54:27 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/net-snmp_disk.xml
+2021-02-03 15:54:27 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/net-snmp_disk.xml, with Status written
+2021-02-03 15:54:27 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/host_disk.xml
+2021-02-03 15:54:27 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/host_disk.xml, with Status written
+2021-02-03 15:54:27 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/host_cpu.xml
+2021-02-03 15:54:27 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/host_cpu.xml, with Status written
+2021-02-03 15:54:27 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/net-snmp_devio.xml
+2021-02-03 15:54:27 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/net-snmp_devio.xml, with Status written
+2021-02-03 15:54:27 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_host_disk.php
+2021-02-03 15:54:27 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_host_disk.php, with Status written
+2021-02-03 15:54:27 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_host_cpu.php
+2021-02-03 15:54:27 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_host_cpu.php, with Status written
+2021-02-03 15:54:27 - IMPORT Importing XML Data for NetSNMP_Device.xml
+2021-02-03 15:54:34 - IMPORT File creation complete
+2021-02-03 15:54:34 - INSTALL: always: Import of Package #5 'NetSNMP_Device.xml.gz' under Profile '1' succeeded
+2021-02-03 15:54:34 - INSTALL: always: About to import Package #6 'Windows_Device.xml.gz'.
+2021-02-03 15:54:34 - IMPORT NOTE: Got Package Signature
+2021-02-03 15:54:34 - IMPORT NOTE: File is Signed Correctly
+2021-02-03 15:54:34 - IMPORT Loading Plugin Information from package
+2021-02-03 15:54:34 - IMPORT Verifying each files signature
+2021-02-03 15:54:34 - IMPORT NOTE: File OK: scripts/ss_hstats.php
+2021-02-03 15:54:34 - IMPORT NOTE: File OK: resource/snmp_queries/interface.xml
+2021-02-03 15:54:34 - IMPORT NOTE: File OK: resource/script_server/host_disk.xml
+2021-02-03 15:54:34 - IMPORT NOTE: File OK: resource/script_server/host_cpu.xml
+2021-02-03 15:54:34 - IMPORT NOTE: File OK: scripts/ss_host_disk.php
+2021-02-03 15:54:34 - IMPORT NOTE: File OK: scripts/ss_host_cpu.php
+2021-02-03 15:54:34 - IMPORT NOTE: File OK: Windows_Device.xml
+2021-02-03 15:54:34 - IMPORT Writing Files
+2021-02-03 15:54:34 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_hstats.php
+2021-02-03 15:54:34 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_hstats.php, with Status written
+2021-02-03 15:54:34 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/interface.xml
+2021-02-03 15:54:34 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/interface.xml, with Status written
+2021-02-03 15:54:34 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/host_disk.xml
+2021-02-03 15:54:34 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/host_disk.xml, with Status written
+2021-02-03 15:54:34 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/host_cpu.xml
+2021-02-03 15:54:34 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/host_cpu.xml, with Status written
+2021-02-03 15:54:34 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_host_disk.php
+2021-02-03 15:54:34 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_host_disk.php, with Status written
+2021-02-03 15:54:34 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_host_cpu.php
+2021-02-03 15:54:34 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_host_cpu.php, with Status written
+2021-02-03 15:54:34 - IMPORT Importing XML Data for Windows_Device.xml
+2021-02-03 15:54:37 - IMPORT File creation complete
+2021-02-03 15:54:37 - INSTALL: always: Import of Package #6 'Windows_Device.xml.gz' under Profile '1' succeeded
+2021-02-03 15:54:37 - INSTALL: always: Repairing Automation Rules
+2021-02-03 15:54:37 - INSTALL: always: Mapping Automation Template for Device Template 'Net-SNMP Device'
+2021-02-03 15:54:37 - INSTALL: always: Mapping Automation Template for Device Template 'Windows Device'
+2021-02-03 15:54:37 - INSTALL: always: Mapping Automation Template for Device Template 'Cisco Router'
+2021-02-03 15:54:37 - INSTALL-AUTOMATION: always: Setting default data source profile to 5 Minute Collection (1)
+2021-02-03 15:54:37 - INSTALL: always: Updating automation network (1), mode "on" => "on", subnet "192.168.1.0/24" => 192.168.1.0/24"
+2021-02-03 15:54:37 - INSTALL: always: Device Template for First Cacti Device is 4
+2021-02-03 15:54:38 - AUTOM8 NOTE: Graph Added - Device[1], Graph[1], DS[1]
+2021-02-03 15:54:38 - AUTOM8 NOTE: Graph Added - Device[1], Graph[2], DS[2]
+2021-02-03 15:54:39 - AUTOM8 NOTE: Graph Added - Device[1], Graph[3], DS[3]
+2021-02-03 15:54:39 - AUTOM8 NOTE: Graph Added - Device[1], Graph[4], DS[4, 5]
+2021-02-03 15:54:39 - AUTOM8 NOTE: [PID: 15477] create_header_node() Parent[0] Tree Item - Added - id: (1) Title: (Local )
+2021-02-03 15:54:39 - AUTOM8 NOTE: [PID: 15477] create_header_node() Parent[1] Tree Item - Added - id: (2) Title: (Machine)
+2021-02-03 15:54:39 - AUTOM8 NOTE: [PID: 15477] create_device_node() Device[1] Tree Item - Added - Parent[2] Id[3]
+2021-02-03 15:54:39 - INSTALL: always: Creating Graphs for Default Device
+2021-02-03 15:54:39 - INSTALL: always: Adding Device to Default Tree
+2021-02-03 15:54:40 - INSTALL: always: Repopulating poller cache
+2021-02-03 15:54:40 - INSTALL: always: Repopulating SNMP Agent cache
+2021-02-03 15:54:41 - INSTALL: always: Generating RSA Key Pair
+2021-02-03 15:54:41 - INSTALL: always: Finished INSTALL Process for v1.2.16
+2021-02-03 15:54:41 - INSTALL-SYNC: always: No Remote Data Collectors found for full syncronization
+2021-02-03 15:54:41 - INSTALL: always: Installation was started at 2021-02-03 13:54:10, completed at 2021-02-03 13:54:41
+2021/02/04 16:55:48 - AUTH LOGIN: User 'admin' Authenticated
+2021-02-04 17:16:22 - AUTH LOGIN: Local Login Failed for user 'admin' from IP Address '192.168.32.1'.
+2021-02-04 17:16:30 - AUTH LOGIN: User 'admin' Authenticated
+2021-02-05 09:44:43 - AUTH LOGIN: User 'admin' Authenticated
+2021-02-05 17:28:27 - AUTH LOGIN: User 'admin' Authenticated
+2021-02-05 15:38:02 - AUTH LOGIN: User 'admin' Authenticated
+2021-02-05 17:46:09 - AUTH LOGIN: User 'admin' Authenticated
+2021-02-05 17:57:58 - AUTH LOGIN: User 'admin' Authenticated
+2021-02-05 17:59:17 - INSTALL: always: Spawning background process: /usr/bin/php '/var/www/html/cacti/install/background.php' 1612540757.6045
+2021-02-05 17:59:18 - INSTALL: Checking arguments
+2021-02-05 17:59:18 - INSTALL: always: Setting PHP Option max_execution_time = 0
+2021-02-05 17:59:18 - INSTALL: always: Setting PHP Option memory_limit = -1
+2021-02-05 17:59:19 - INSTALL: always: Starting INSTALL Process for v1.2.16
+2021-02-05 17:59:19 - INSTALL: always: Found 110 tables to convert
+2021-02-05 17:59:19 - INSTALL: always: Converting Table #1 'aggregate_graphs'
+2021-02-05 17:59:20 - INSTALL: always: Converting Table #2 'aggregate_graphs_graph_item'
+2021-02-05 17:59:20 - INSTALL: always: Converting Table #3 'aggregate_graphs_items'
+2021-02-05 17:59:21 - INSTALL: always: Converting Table #4 'aggregate_graph_templates'
+2021-02-05 17:59:21 - INSTALL: always: Converting Table #5 'aggregate_graph_templates_graph'
+2021-02-05 17:59:22 - INSTALL: always: Converting Table #6 'aggregate_graph_templates_item'
+2021-02-05 17:59:22 - INSTALL: always: Converting Table #7 'automation_devices'
+2021-02-05 17:59:23 - INSTALL: always: Converting Table #8 'automation_graph_rules'
+2021-02-05 17:59:23 - INSTALL: always: Converting Table #9 'automation_graph_rule_items'
+2021-02-05 17:59:23 - INSTALL: always: Converting Table #10 'automation_ips'
+2021-02-05 17:59:24 - INSTALL: always: Converting Table #11 'automation_match_rule_items'
+2021-02-05 17:59:24 - INSTALL: always: Converting Table #12 'automation_networks'
+2021-02-05 17:59:25 - INSTALL: always: Converting Table #13 'automation_processes'
+2021-02-05 17:59:25 - INSTALL: always: Converting Table #14 'automation_snmp'
+2021-02-05 17:59:26 - INSTALL: always: Converting Table #15 'automation_snmp_items'
+2021-02-05 17:59:26 - INSTALL: always: Converting Table #16 'automation_templates'
+2021-02-05 17:59:26 - INSTALL: always: Converting Table #17 'automation_tree_rules'
+2021-02-05 17:59:27 - INSTALL: always: Converting Table #18 'automation_tree_rule_items'
+2021-02-05 17:59:27 - INSTALL: always: Converting Table #19 'cdef'
+2021-02-05 17:59:28 - INSTALL: always: Converting Table #20 'cdef_items'
+2021-02-05 17:59:28 - INSTALL: always: Converting Table #21 'colors'
+2021-02-05 17:59:29 - INSTALL: always: Converting Table #22 'color_templates'
+2021-02-05 17:59:29 - INSTALL: always: Converting Table #23 'color_template_items'
+2021-02-05 17:59:29 - INSTALL: always: Converting Table #24 'data_debug'
+2021-02-05 17:59:30 - INSTALL: always: Converting Table #25 'data_input'
+2021-02-05 17:59:30 - INSTALL: always: Converting Table #26 'data_input_data'
+2021-02-05 17:59:31 - INSTALL: always: Converting Table #27 'data_input_fields'
+2021-02-05 17:59:31 - INSTALL: always: Converting Table #28 'data_local'
+2021-02-05 17:59:32 - INSTALL: always: Converting Table #29 'data_source_profiles'
+2021-02-05 17:59:32 - INSTALL: always: Converting Table #30 'data_source_profiles_cf'
+2021-02-05 17:59:32 - INSTALL: always: Converting Table #31 'data_source_profiles_rra'
+2021-02-05 17:59:33 - INSTALL: always: Converting Table #32 'data_source_purge_action'
+2021-02-05 17:59:33 - INSTALL: always: Converting Table #33 'data_source_purge_temp'
+2021-02-05 17:59:34 - INSTALL: always: Converting Table #34 'data_source_stats_daily'
+2021-02-05 17:59:34 - INSTALL: always: Converting Table #35 'data_source_stats_hourly'
+2021-02-05 17:59:34 - INSTALL: always: Converting Table #36 'data_source_stats_hourly_cache'
+2021-02-05 17:59:35 - INSTALL: always: Converting Table #37 'data_source_stats_hourly_last'
+2021-02-05 17:59:35 - INSTALL: always: Converting Table #38 'data_source_stats_monthly'
+2021-02-05 17:59:36 - INSTALL: always: Converting Table #39 'data_source_stats_weekly'
+2021-02-05 17:59:36 - INSTALL: always: Converting Table #40 'data_source_stats_yearly'
+2021-02-05 17:59:37 - INSTALL: always: Converting Table #41 'data_template'
+2021-02-05 17:59:37 - INSTALL: always: Converting Table #42 'data_template_data'
+2021-02-05 17:59:38 - INSTALL: always: Converting Table #43 'data_template_rrd'
+2021-02-05 17:59:38 - INSTALL: always: Converting Table #44 'external_links'
+2021-02-05 17:59:39 - INSTALL: always: Converting Table #45 'graph_local'
+2021-02-05 17:59:39 - INSTALL: always: Converting Table #46 'graph_templates'
+2021-02-05 17:59:39 - INSTALL: always: Converting Table #47 'graph_templates_gprint'
+2021-02-05 17:59:40 - INSTALL: always: Converting Table #48 'graph_templates_graph'
+2021-02-05 17:59:40 - INSTALL: always: Converting Table #49 'graph_templates_item'
+2021-02-05 17:59:41 - INSTALL: always: Converting Table #50 'graph_template_input'
+2021-02-05 17:59:41 - INSTALL: always: Converting Table #51 'graph_template_input_defs'
+2021-02-05 17:59:41 - INSTALL: always: Converting Table #52 'graph_tree'
+2021-02-05 17:59:42 - INSTALL: always: Converting Table #53 'graph_tree_items'
+2021-02-05 17:59:42 - INSTALL: always: Converting Table #54 'host'
+2021-02-05 17:59:43 - INSTALL: always: Converting Table #55 'host_graph'
+2021-02-05 17:59:43 - INSTALL: always: Converting Table #56 'host_snmp_cache'
+2021-02-05 17:59:44 - INSTALL: always: Converting Table #57 'host_snmp_query'
+2021-02-05 17:59:44 - INSTALL: always: Converting Table #58 'host_template'
+2021-02-05 17:59:45 - INSTALL: always: Converting Table #59 'host_template_graph'
+2021-02-05 17:59:45 - INSTALL: always: Converting Table #60 'host_template_snmp_query'
+2021-02-05 17:59:45 - INSTALL: always: Converting Table #61 'plugin_config'
+2021-02-05 17:59:46 - INSTALL: always: Converting Table #62 'plugin_db_changes'
+2021-02-05 17:59:46 - CMDPHP ERROR: A DB Row Failed!, Error: Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,IMPLICIT) for operation '='
+2021-02-05 17:59:46 - CMDPHP SQL Backtrace:  (/cli/convert_tables.php[26]:require(), /include/cli_check.php[45]:include(), /include/global.php[504]:include_once(), /include/global_arrays.php[2730]:api_plugin_hook(), /lib/plugins.php[63]:db_fetch_assoc_prepared(), /lib/database.php[490]:db_execute_prepared())
+2021-02-05 17:59:46 - CMDPHP ERROR: A DB Row Failed!, Error: Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,IMPLICIT) for operation '='
+2021-02-05 17:59:46 - CMDPHP SQL Backtrace:  (/cli/convert_tables.php[26]:require(), /include/cli_check.php[45]:include(), /include/global.php[505]:include_once(), /include/global_settings.php[2500]:api_plugin_hook(), /lib/plugins.php[63]:db_fetch_assoc_prepared(), /lib/database.php[490]:db_execute_prepared())
+2021-02-05 17:59:46 - CMDPHP ERROR: A DB Row Failed!, Error: Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,IMPLICIT) for operation '='
+2021-02-05 17:59:46 - CMDPHP SQL Backtrace:  (/cli/convert_tables.php[26]:require(), /include/cli_check.php[45]:include(), /include/global.php[506]:include_once(), /include/global_form.php[26]:api_plugin_hook_function(), /lib/plugins.php[102]:db_fetch_assoc_prepared(), /lib/database.php[490]:db_execute_prepared())
+2021-02-05 17:59:46 - CMDPHP ERROR: A DB Row Failed!, Error: Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,IMPLICIT) for operation '='
+2021-02-05 17:59:46 - CMDPHP SQL Backtrace:  (/cli/convert_tables.php[26]:require(), /include/cli_check.php[45]:include(), /include/global.php[506]:include_once(), /include/global_form.php[2274]:api_plugin_hook(), /lib/plugins.php[63]:db_fetch_assoc_prepared(), /lib/database.php[490]:db_execute_prepared())
+2021-02-05 17:59:46 - CMDPHP ERROR: A DB Row Failed!, Error: Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,IMPLICIT) for operation '='
+2021-02-05 17:59:46 - CMDPHP SQL Backtrace:  (/cli/convert_tables.php[26]:require(), /include/cli_check.php[45]:include(), /include/global.php[542]:api_plugin_hook(), /lib/plugins.php[63]:db_fetch_assoc_prepared(), /lib/database.php[490]:db_execute_prepared())
+2021-02-05 17:59:46 - INSTALL: always: Converting Table #63 'plugin_hooks'
+2021-02-05 17:59:47 - CMDPHP ERROR: A DB Row Failed!, Error: Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,IMPLICIT) for operation '='
+2021-02-05 17:59:47 - CMDPHP SQL Backtrace:  (/cli/convert_tables.php[26]:require(), /include/cli_check.php[45]:include(), /include/global.php[504]:include_once(), /include/global_arrays.php[2730]:api_plugin_hook(), /lib/plugins.php[63]:db_fetch_assoc_prepared(), /lib/database.php[490]:db_execute_prepared())
+2021-02-05 17:59:47 - CMDPHP ERROR: A DB Row Failed!, Error: Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,IMPLICIT) for operation '='
+2021-02-05 17:59:47 - CMDPHP SQL Backtrace:  (/cli/convert_tables.php[26]:require(), /include/cli_check.php[45]:include(), /include/global.php[505]:include_once(), /include/global_settings.php[2500]:api_plugin_hook(), /lib/plugins.php[63]:db_fetch_assoc_prepared(), /lib/database.php[490]:db_execute_prepared())
+2021-02-05 17:59:47 - CMDPHP ERROR: A DB Row Failed!, Error: Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,IMPLICIT) for operation '='
+2021-02-05 17:59:47 - CMDPHP SQL Backtrace:  (/cli/convert_tables.php[26]:require(), /include/cli_check.php[45]:include(), /include/global.php[506]:include_once(), /include/global_form.php[26]:api_plugin_hook_function(), /lib/plugins.php[102]:db_fetch_assoc_prepared(), /lib/database.php[490]:db_execute_prepared())
+2021-02-05 17:59:47 - CMDPHP ERROR: A DB Row Failed!, Error: Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,IMPLICIT) for operation '='
+2021-02-05 17:59:47 - CMDPHP SQL Backtrace:  (/cli/convert_tables.php[26]:require(), /include/cli_check.php[45]:include(), /include/global.php[506]:include_once(), /include/global_form.php[2274]:api_plugin_hook(), /lib/plugins.php[63]:db_fetch_assoc_prepared(), /lib/database.php[490]:db_execute_prepared())
+2021-02-05 17:59:47 - CMDPHP ERROR: A DB Row Failed!, Error: Illegal mix of collations (utf8mb4_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,IMPLICIT) for operation '='
+2021-02-05 17:59:47 - CMDPHP SQL Backtrace:  (/cli/convert_tables.php[26]:require(), /include/cli_check.php[45]:include(), /include/global.php[542]:api_plugin_hook(), /lib/plugins.php[63]:db_fetch_assoc_prepared(), /lib/database.php[490]:db_execute_prepared())
+2021-02-05 17:59:47 - INSTALL: always: Converting Table #64 'plugin_realms'
+2021-02-05 17:59:47 - INSTALL: always: Converting Table #65 'poller'
+2021-02-05 17:59:48 - INSTALL: always: Converting Table #66 'poller_command'
+2021-02-05 17:59:48 - INSTALL: always: Converting Table #67 'poller_data_template_field_mappings'
+2021-02-05 17:59:49 - INSTALL: always: Converting Table #68 'poller_item'
+2021-02-05 17:59:49 - INSTALL: always: Converting Table #69 'poller_output'
+2021-02-05 17:59:50 - INSTALL: always: Converting Table #70 'poller_output_boost'
+2021-02-05 17:59:50 - INSTALL: always: Converting Table #71 'poller_output_boost_processes'
+2021-02-05 17:59:51 - INSTALL: always: Converting Table #72 'poller_output_realtime'
+2021-02-05 17:59:51 - INSTALL: always: Converting Table #73 'poller_reindex'
+2021-02-05 17:59:52 - INSTALL: always: Converting Table #74 'poller_resource_cache'
+2021-02-05 17:59:52 - INSTALL: always: Converting Table #75 'poller_time'
+2021-02-05 17:59:52 - INSTALL: always: Converting Table #76 'processes'
+2021-02-05 17:59:53 - INSTALL: always: Converting Table #77 'reports'
+2021-02-05 17:59:53 - INSTALL: always: Converting Table #78 'reports_items'
+2021-02-05 17:59:54 - INSTALL: always: Converting Table #79 'sessions'
+2021-02-05 17:59:54 - INSTALL: always: Converting Table #80 'settings'
+2021-02-05 17:59:54 - INSTALL: always: Converting Table #81 'settings_tree'
+2021-02-05 17:59:55 - INSTALL: always: Converting Table #82 'settings_user'
+2021-02-05 17:59:55 - INSTALL: always: Converting Table #83 'settings_user_group'
+2021-02-05 17:59:56 - INSTALL: always: Converting Table #84 'sites'
+2021-02-05 17:59:56 - INSTALL: always: Converting Table #85 'snmpagent_cache'
+2021-02-05 17:59:57 - INSTALL: always: Converting Table #86 'snmpagent_cache_notifications'
+2021-02-05 17:59:57 - INSTALL: always: Converting Table #87 'snmpagent_cache_textual_conventions'
+2021-02-05 17:59:58 - INSTALL: always: Converting Table #88 'snmpagent_managers'
+2021-02-05 17:59:58 - INSTALL: always: Converting Table #89 'snmpagent_managers_notifications'
+2021-02-05 17:59:59 - INSTALL: always: Converting Table #90 'snmpagent_mibs'
+2021-02-05 17:59:59 - INSTALL: always: Converting Table #91 'snmpagent_notifications_log'
+2021-02-05 17:59:59 - INSTALL: always: Converting Table #92 'snmp_query'
+2021-02-05 18:00:00 - INSTALL: always: Converting Table #93 'snmp_query_graph'
+2021-02-05 18:00:01 - INSTALL: always: Converting Table #94 'snmp_query_graph_rrd'
+2021-02-05 18:00:01 - INSTALL: always: Converting Table #95 'snmp_query_graph_rrd_sv'
+2021-02-05 18:00:02 - INSTALL: always: Converting Table #96 'snmp_query_graph_sv'
+2021-02-05 18:00:03 - INSTALL: always: Converting Table #97 'user_auth'
+2021-02-05 18:00:03 - INSTALL: always: Converting Table #98 'user_auth_cache'
+2021-02-05 18:00:04 - INSTALL: always: Converting Table #99 'user_auth_group'
+2021-02-05 18:00:04 - INSTALL: always: Converting Table #100 'user_auth_group_members'
+2021-02-05 18:00:04 - INSTALL: always: Converting Table #101 'user_auth_group_perms'
+2021-02-05 18:00:05 - INSTALL: always: Converting Table #102 'user_auth_group_realm'
+2021-02-05 18:00:05 - INSTALL: always: Converting Table #103 'user_auth_perms'
+2021-02-05 18:00:06 - INSTALL: always: Converting Table #104 'user_auth_realm'
+2021-02-05 18:00:07 - INSTALL: always: Converting Table #105 'user_domains'
+2021-02-05 18:00:07 - INSTALL: always: Converting Table #106 'user_domains_ldap'
+2021-02-05 18:00:07 - INSTALL: always: Converting Table #107 'user_log'
+2021-02-05 18:00:08 - INSTALL: always: Converting Table #108 'vdef'
+2021-02-05 18:00:08 - INSTALL: always: Converting Table #109 'vdef_items'
+2021-02-05 18:00:09 - INSTALL: always: Converting Table #110 'version'
+2021-02-05 18:00:09 - INSTALL: always: Found 6 templates to install
+2021-02-05 18:00:09 - INSTALL: always: About to import Package #1 'Cacti_Stats.xml.gz'.
+2021-02-05 18:00:09 - IMPORT NOTE: Got Package Signature
+2021-02-05 18:00:09 - IMPORT NOTE: File is Signed Correctly
+2021-02-05 18:00:09 - IMPORT Loading Plugin Information from package
+2021-02-05 18:00:09 - IMPORT Verifying each files signature
+2021-02-05 18:00:09 - IMPORT NOTE: File OK: scripts/ss_poller.php
+2021-02-05 18:00:09 - IMPORT NOTE: File OK: scripts/cacti_user_stats.php
+2021-02-05 18:00:09 - IMPORT NOTE: File OK: resource/script_server/cpoller.xml
+2021-02-05 18:00:09 - IMPORT NOTE: File OK: resource/script_server/webseer.xml
+2021-02-05 18:00:09 - IMPORT NOTE: File OK: resource/script_server/gexport.xml
+2021-02-05 18:00:09 - IMPORT NOTE: File OK: scripts/ss_cpoller.php
+2021-02-05 18:00:09 - IMPORT NOTE: File OK: scripts/ss_webseer.php
+2021-02-05 18:00:09 - IMPORT NOTE: File OK: scripts/ss_gexport.php
+2021-02-05 18:00:09 - IMPORT NOTE: File OK: Cacti_Stats.xml
+2021-02-05 18:00:09 - IMPORT Writing Files
+2021-02-05 18:00:09 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_poller.php
+2021-02-05 18:00:09 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_poller.php, with Status written
+2021-02-05 18:00:09 - IMPORT Writing file: /var/www/html/cacti/scripts/cacti_user_stats.php
+2021-02-05 18:00:09 - IMPORT Write Status file: /var/www/html/cacti/scripts/cacti_user_stats.php, with Status written
+2021-02-05 18:00:09 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/cpoller.xml
+2021-02-05 18:00:09 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/cpoller.xml, with Status written
+2021-02-05 18:00:09 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/webseer.xml
+2021-02-05 18:00:09 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/webseer.xml, with Status written
+2021-02-05 18:00:09 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/gexport.xml
+2021-02-05 18:00:09 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/gexport.xml, with Status written
+2021-02-05 18:00:10 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_cpoller.php
+2021-02-05 18:00:10 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_cpoller.php, with Status written
+2021-02-05 18:00:10 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_webseer.php
+2021-02-05 18:00:10 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_webseer.php, with Status written
+2021-02-05 18:00:10 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_gexport.php
+2021-02-05 18:00:10 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_gexport.php, with Status written
+2021-02-05 18:00:10 - IMPORT Importing XML Data for Cacti_Stats.xml
+2021-02-05 18:00:18 - IMPORT File creation complete
+2021-02-05 18:00:18 - INSTALL: always: Import of Package #1 'Cacti_Stats.xml.gz' under Profile '1' succeeded
+2021-02-05 18:00:18 - INSTALL: always: About to import Package #2 'Cisco_Router.xml.gz'.
+2021-02-05 18:00:18 - IMPORT NOTE: Got Package Signature
+2021-02-05 18:00:18 - IMPORT NOTE: File is Signed Correctly
+2021-02-05 18:00:18 - IMPORT Loading Plugin Information from package
+2021-02-05 18:00:18 - IMPORT Verifying each files signature
+2021-02-05 18:00:18 - IMPORT NOTE: File OK: scripts/ss_hstats.php
+2021-02-05 18:00:18 - IMPORT NOTE: File OK: resource/snmp_queries/interface.xml
+2021-02-05 18:00:18 - IMPORT NOTE: File OK: Cisco_Router.xml
+2021-02-05 18:00:18 - IMPORT Writing Files
+2021-02-05 18:00:18 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_hstats.php
+2021-02-05 18:00:18 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_hstats.php, with Status written
+2021-02-05 18:00:18 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/interface.xml
+2021-02-05 18:00:18 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/interface.xml, with Status written
+2021-02-05 18:00:18 - IMPORT Importing XML Data for Cisco_Router.xml
+2021-02-05 18:00:25 - IMPORT File creation complete
+2021-02-05 18:00:25 - INSTALL: always: Import of Package #2 'Cisco_Router.xml.gz' under Profile '1' succeeded
+2021-02-05 18:00:25 - INSTALL: always: About to import Package #3 'Generic_SNMP_Device.xml.gz'.
+2021-02-05 18:00:25 - IMPORT NOTE: Got Package Signature
+2021-02-05 18:00:25 - IMPORT NOTE: File is Signed Correctly
+2021-02-05 18:00:25 - IMPORT Loading Plugin Information from package
+2021-02-05 18:00:25 - IMPORT Verifying each files signature
+2021-02-05 18:00:25 - IMPORT NOTE: File OK: scripts/ss_hstats.php
+2021-02-05 18:00:25 - IMPORT NOTE: File OK: scripts/ping.pl
+2021-02-05 18:00:25 - IMPORT NOTE: File OK: resource/snmp_queries/interface.xml
+2021-02-05 18:00:25 - IMPORT NOTE: File OK: Generic_SNMP_Device.xml
+2021-02-05 18:00:25 - IMPORT Writing Files
+2021-02-05 18:00:25 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_hstats.php
+2021-02-05 18:00:25 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_hstats.php, with Status written
+2021-02-05 18:00:25 - IMPORT Writing file: /var/www/html/cacti/scripts/ping.pl
+2021-02-05 18:00:25 - IMPORT Write Status file: /var/www/html/cacti/scripts/ping.pl, with Status written
+2021-02-05 18:00:25 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/interface.xml
+2021-02-05 18:00:25 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/interface.xml, with Status written
+2021-02-05 18:00:25 - IMPORT Importing XML Data for Generic_SNMP_Device.xml
+2021-02-05 18:00:28 - IMPORT File creation complete
+2021-02-05 18:00:28 - INSTALL: always: Import of Package #3 'Generic_SNMP_Device.xml.gz' under Profile '1' succeeded
+2021-02-05 18:00:28 - INSTALL: always: About to import Package #4 'Local_Linux_Machine.xml.gz'.
+2021-02-05 18:00:28 - IMPORT NOTE: Got Package Signature
+2021-02-05 18:00:29 - IMPORT NOTE: File is Signed Correctly
+2021-02-05 18:00:29 - IMPORT Loading Plugin Information from package
+2021-02-05 18:00:29 - IMPORT Verifying each files signature
+2021-02-05 18:00:29 - IMPORT NOTE: File OK: scripts/unix_processes.pl
+2021-02-05 18:00:29 - IMPORT NOTE: File OK: scripts/loadavg_multi.pl
+2021-02-05 18:00:29 - IMPORT NOTE: File OK: scripts/unix_users.pl
+2021-02-05 18:00:29 - IMPORT NOTE: File OK: scripts/linux_memory.pl
+2021-02-05 18:00:29 - IMPORT NOTE: File OK: resource/script_queries/unix_disk.xml
+2021-02-05 18:00:29 - IMPORT NOTE: File OK: scripts/query_unix_partitions.pl
+2021-02-05 18:00:29 - IMPORT NOTE: File OK: Local_Linux_Machine.xml
+2021-02-05 18:00:29 - IMPORT Writing Files
+2021-02-05 18:00:29 - IMPORT Writing file: /var/www/html/cacti/scripts/unix_processes.pl
+2021-02-05 18:00:29 - IMPORT Write Status file: /var/www/html/cacti/scripts/unix_processes.pl, with Status written
+2021-02-05 18:00:29 - IMPORT Writing file: /var/www/html/cacti/scripts/loadavg_multi.pl
+2021-02-05 18:00:29 - IMPORT Write Status file: /var/www/html/cacti/scripts/loadavg_multi.pl, with Status written
+2021-02-05 18:00:29 - IMPORT Writing file: /var/www/html/cacti/scripts/unix_users.pl
+2021-02-05 18:00:29 - IMPORT Write Status file: /var/www/html/cacti/scripts/unix_users.pl, with Status written
+2021-02-05 18:00:29 - IMPORT Writing file: /var/www/html/cacti/scripts/linux_memory.pl
+2021-02-05 18:00:29 - IMPORT Write Status file: /var/www/html/cacti/scripts/linux_memory.pl, with Status written
+2021-02-05 18:00:29 - IMPORT Writing file: /var/www/html/cacti/resource/script_queries/unix_disk.xml
+2021-02-05 18:00:29 - IMPORT Write Status file: /var/www/html/cacti/resource/script_queries/unix_disk.xml, with Status written
+2021-02-05 18:00:29 - IMPORT Writing file: /var/www/html/cacti/scripts/query_unix_partitions.pl
+2021-02-05 18:00:29 - IMPORT Write Status file: /var/www/html/cacti/scripts/query_unix_partitions.pl, with Status written
+2021-02-05 18:00:29 - IMPORT Importing XML Data for Local_Linux_Machine.xml
+2021-02-05 18:00:30 - IMPORT File creation complete
+2021-02-05 18:00:30 - INSTALL: always: Import of Package #4 'Local_Linux_Machine.xml.gz' under Profile '1' succeeded
+2021-02-05 18:00:30 - INSTALL: always: About to import Package #5 'NetSNMP_Device.xml.gz'.
+2021-02-05 18:00:30 - IMPORT NOTE: Got Package Signature
+2021-02-05 18:00:30 - IMPORT NOTE: File is Signed Correctly
+2021-02-05 18:00:30 - IMPORT Loading Plugin Information from package
+2021-02-05 18:00:30 - IMPORT Verifying each files signature
+2021-02-05 18:00:30 - IMPORT NOTE: File OK: scripts/ss_hstats.php
+2021-02-05 18:00:30 - IMPORT NOTE: File OK: scripts/ss_net_snmp_disk_io.php
+2021-02-05 18:00:31 - IMPORT NOTE: File OK: scripts/ss_net_snmp_disk_bytes.php
+2021-02-05 18:00:31 - IMPORT NOTE: File OK: resource/snmp_queries/interface.xml
+2021-02-05 18:00:31 - IMPORT NOTE: File OK: resource/snmp_queries/net-snmp_disk.xml
+2021-02-05 18:00:31 - IMPORT NOTE: File OK: resource/script_server/host_disk.xml
+2021-02-05 18:00:31 - IMPORT NOTE: File OK: resource/script_server/host_cpu.xml
+2021-02-05 18:00:31 - IMPORT NOTE: File OK: resource/snmp_queries/net-snmp_devio.xml
+2021-02-05 18:00:31 - IMPORT NOTE: File OK: scripts/ss_host_disk.php
+2021-02-05 18:00:31 - IMPORT NOTE: File OK: scripts/ss_host_cpu.php
+2021-02-05 18:00:31 - IMPORT NOTE: File OK: NetSNMP_Device.xml
+2021-02-05 18:00:31 - IMPORT Writing Files
+2021-02-05 18:00:31 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_hstats.php
+2021-02-05 18:00:31 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_hstats.php, with Status written
+2021-02-05 18:00:31 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_net_snmp_disk_io.php
+2021-02-05 18:00:31 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_net_snmp_disk_io.php, with Status written
+2021-02-05 18:00:31 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_net_snmp_disk_bytes.php
+2021-02-05 18:00:31 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_net_snmp_disk_bytes.php, with Status written
+2021-02-05 18:00:31 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/interface.xml
+2021-02-05 18:00:31 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/interface.xml, with Status written
+2021-02-05 18:00:31 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/net-snmp_disk.xml
+2021-02-05 18:00:31 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/net-snmp_disk.xml, with Status written
+2021-02-05 18:00:31 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/host_disk.xml
+2021-02-05 18:00:31 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/host_disk.xml, with Status written
+2021-02-05 18:00:31 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/host_cpu.xml
+2021-02-05 18:00:31 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/host_cpu.xml, with Status written
+2021-02-05 18:00:31 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/net-snmp_devio.xml
+2021-02-05 18:00:31 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/net-snmp_devio.xml, with Status written
+2021-02-05 18:00:31 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_host_disk.php
+2021-02-05 18:00:31 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_host_disk.php, with Status written
+2021-02-05 18:00:31 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_host_cpu.php
+2021-02-05 18:00:31 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_host_cpu.php, with Status written
+2021-02-05 18:00:31 - IMPORT Importing XML Data for NetSNMP_Device.xml
+2021-02-05 18:00:40 - IMPORT File creation complete
+2021-02-05 18:00:40 - INSTALL: always: Import of Package #5 'NetSNMP_Device.xml.gz' under Profile '1' succeeded
+2021-02-05 18:00:40 - INSTALL: always: About to import Package #6 'Windows_Device.xml.gz'.
+2021-02-05 18:00:41 - IMPORT NOTE: Got Package Signature
+2021-02-05 18:00:41 - IMPORT NOTE: File is Signed Correctly
+2021-02-05 18:00:41 - IMPORT Loading Plugin Information from package
+2021-02-05 18:00:41 - IMPORT Verifying each files signature
+2021-02-05 18:00:41 - IMPORT NOTE: File OK: scripts/ss_hstats.php
+2021-02-05 18:00:41 - IMPORT NOTE: File OK: resource/snmp_queries/interface.xml
+2021-02-05 18:00:41 - IMPORT NOTE: File OK: resource/script_server/host_disk.xml
+2021-02-05 18:00:41 - IMPORT NOTE: File OK: resource/script_server/host_cpu.xml
+2021-02-05 18:00:41 - IMPORT NOTE: File OK: scripts/ss_host_disk.php
+2021-02-05 18:00:41 - IMPORT NOTE: File OK: scripts/ss_host_cpu.php
+2021-02-05 18:00:41 - IMPORT NOTE: File OK: Windows_Device.xml
+2021-02-05 18:00:41 - IMPORT Writing Files
+2021-02-05 18:00:41 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_hstats.php
+2021-02-05 18:00:41 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_hstats.php, with Status written
+2021-02-05 18:00:41 - IMPORT Writing file: /var/www/html/cacti/resource/snmp_queries/interface.xml
+2021-02-05 18:00:41 - IMPORT Write Status file: /var/www/html/cacti/resource/snmp_queries/interface.xml, with Status written
+2021-02-05 18:00:41 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/host_disk.xml
+2021-02-05 18:00:41 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/host_disk.xml, with Status written
+2021-02-05 18:00:41 - IMPORT Writing file: /var/www/html/cacti/resource/script_server/host_cpu.xml
+2021-02-05 18:00:41 - IMPORT Write Status file: /var/www/html/cacti/resource/script_server/host_cpu.xml, with Status written
+2021-02-05 18:00:41 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_host_disk.php
+2021-02-05 18:00:41 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_host_disk.php, with Status written
+2021-02-05 18:00:41 - IMPORT Writing file: /var/www/html/cacti/scripts/ss_host_cpu.php
+2021-02-05 18:00:41 - IMPORT Write Status file: /var/www/html/cacti/scripts/ss_host_cpu.php, with Status written
+2021-02-05 18:00:41 - IMPORT Importing XML Data for Windows_Device.xml
+2021-02-05 18:00:45 - IMPORT File creation complete
+2021-02-05 18:00:45 - INSTALL: always: Import of Package #6 'Windows_Device.xml.gz' under Profile '1' succeeded
+2021-02-05 18:00:45 - INSTALL: always: Repairing Automation Rules
+2021-02-05 18:00:45 - INSTALL: always: Mapping Automation Template for Device Template 'Net-SNMP Device'
+2021-02-05 18:00:45 - INSTALL: always: Mapping Automation Template for Device Template 'Windows Device'
+2021-02-05 18:00:45 - INSTALL: always: Mapping Automation Template for Device Template 'Cisco Router'
+2021-02-05 18:00:45 - INSTALL-AUTOMATION: always: Setting default data source profile to 5 Minute Collection (1)
+2021-02-05 18:00:46 - INSTALL: always: Updating automation network (1), mode "on" => "on", subnet "192.168.1.0/24" => 192.168.1.0/24"
+2021-02-05 18:00:46 - INSTALL: always: Device Template for First Cacti Device is 4
+2021-02-05 18:00:47 - AUTOM8 NOTE: Graph Added - Device[1], Graph[1], DS[1]
+2021-02-05 18:00:47 - AUTOM8 NOTE: Graph Added - Device[1], Graph[2], DS[2]
+2021-02-05 18:00:47 - AUTOM8 NOTE: Graph Added - Device[1], Graph[3], DS[3]
+2021-02-05 18:00:47 - AUTOM8 NOTE: Graph Added - Device[1], Graph[4], DS[4, 5]
+2021-02-05 18:00:48 - AUTOM8 NOTE: [PID: 430] create_header_node() Parent[0] Tree Item - Added - id: (1) Title: (Local )
+2021-02-05 18:00:48 - AUTOM8 NOTE: [PID: 430] create_header_node() Parent[1] Tree Item - Added - id: (2) Title: (Machine)
+2021-02-05 18:00:48 - AUTOM8 NOTE: [PID: 430] create_device_node() Device[1] Tree Item - Added - Parent[2] Id[3]
+2021-02-05 18:00:48 - INSTALL: always: Creating Graphs for Default Device
+2021-02-05 18:00:48 - INSTALL: always: Adding Device to Default Tree
+2021-02-05 18:00:48 - INSTALL: always: Repopulating poller cache
+2021-02-05 18:00:48 - INSTALL: always: Repopulating SNMP Agent cache
+2021-02-05 18:00:50 - INSTALL: always: Generating RSA Key Pair
+2021-02-05 18:00:50 - INSTALL: always: Finished INSTALL Process for v1.2.16
+2021-02-05 18:00:50 - INSTALL-SYNC: always: No Remote Data Collectors found for full syncronization
+2021-02-05 18:00:50 - INSTALL: always: Installation was started at 2021-02-05 15:59:18, completed at 2021-02-05 16:00:50
+2021-02-15 14:47:09 - SYSTEM STATS: Time:2.5026 Method:cmd.php Processes:1 Threads:1 Hosts:1 HostsPerProcess:1 DataSources:5 RRDsProcessed:5
+2021-02-15 14:47:11 - AUTOM8 [PID: 463] Network Discover is now running for Subnet Range '1'
+2021-02-15 14:49:10 - AUTOM8 [PID: 477] Network Test Network Thread 7 Finished, 26 IPs Scanned, 10 IPs Responded to Ping, 0 Responded to SNMP, 0 Device Added, 0 Graphs Added to Cacti
+2021-02-15 14:49:11 - AUTOM8 [PID: 479] Network Test Network Thread 8 Finished, 26 IPs Scanned, 10 IPs Responded to Ping, 0 Responded to SNMP, 0 Device Added, 0 Graphs Added to Cacti
+2021-02-15 14:49:11 - AUTOM8 [PID: 469] Network Test Network Thread 3 Finished, 21 IPs Scanned, 12 IPs Responded to Ping, 0 Responded to SNMP, 0 Device Added, 0 Graphs Added to Cacti
+2021-02-15 14:49:11 - AUTOM8 [PID: 467] Network Test Network Thread 2 Finished, 29 IPs Scanned, 9 IPs Responded to Ping, 0 Responded to SNMP, 0 Device Added, 0 Graphs Added to Cacti
+2021-02-15 14:49:11 - AUTOM8 [PID: 465] Network Test Network Thread 1 Finished, 24 IPs Scanned, 11 IPs Responded to Ping, 0 Responded to SNMP, 0 Device Added, 0 Graphs Added to Cacti
+2021-02-15 14:49:12 - AUTOM8 [PID: 483] Network Test Network Thread 10 Finished, 27 IPs Scanned, 10 IPs Responded to Ping, 0 Responded to SNMP, 0 Device Added, 0 Graphs Added to Cacti
+2021-02-15 14:49:12 - AUTOM8 [PID: 475] Network Test Network Thread 6 Finished, 24 IPs Scanned, 11 IPs Responded to Ping, 0 Responded to SNMP, 0 Device Added, 0 Graphs Added to Cacti
+2021-02-15 14:49:13 - AUTOM8 [PID: 481] Network Test Network Thread 9 Finished, 33 IPs Scanned, 8 IPs Responded to Ping, 0 Responded to SNMP, 0 Device Added, 0 Graphs Added to Cacti
+2021-02-15 14:49:14 - AUTOM8 [PID: 473] Network Test Network Thread 5 Finished, 22 IPs Scanned, 12 IPs Responded to Ping, 0 Responded to SNMP, 0 Device Added, 0 Graphs Added to Cacti
+2021-02-15 14:49:14 - AUTOM8 [PID: 471] Network Test Network Thread 4 Finished, 22 IPs Scanned, 12 IPs Responded to Ping, 0 Responded to SNMP, 0 Device Added, 0 Graphs Added to Cacti
+2021-02-15 14:51:08 - AUTOM8 NOTE: Graph Added - Device[2], Graph[5], DS[6]
+2021-02-15 14:51:08 - AUTOM8 NOTE: Graph Added - Device[2], Graph[6], DS[7]
+2021-02-15 14:51:08 - AUTOM8 NOTE: Graph Added - Device[2], Graph[7], DS[8]
+2021-02-15 14:51:08 - AUTOM8 NOTE: Graph Added - Device[2], Graph[8], DS[9]
+2021-02-15 14:51:08 - AUTOM8 NOTE: Graph Added - Device[2], Graph[9], DS[10]
+2021-02-15 14:51:09 - AUTOM8 NOTE: Graph Added - Device[2], Graph[10], DS[11]
+2021-02-15 14:51:09 - AUTOM8 NOTE: Graph Added - Device[2], Graph[11], DS[12]
+2021-02-15 14:51:09 - AUTOM8 NOTE: Graph Added - Device[2], Graph[12], DS[13]
+2021-02-15 14:51:09 - AUTOM8 NOTE: Graph Added - Device[2], Graph[13], DS[14]
+2021-02-15 14:51:09 - AUTOM8 NOTE: Graph Added - Device[2], Graph[14], DS[15]
+2021-02-15 14:51:09 - AUTOM8 NOTE: Graph Added - Device[2], Graph[15], DS[16]
+2021-02-15 14:51:10 - AUTOM8 NOTE: Graph Added - Device[2], Graph[16], DS[17]
+2021-02-15 14:51:10 - AUTOM8 NOTE: Graph Added - Device[2], Graph[17], DS[18]
+2021-02-15 14:51:10 - AUTOM8 NOTE: Graph Added - Device[2], Graph[18], DS[19]
+2021-02-15 14:51:10 - AUTOM8 NOTE: Graph Added - Device[2], Graph[19], DS[20]
+2021-02-15 14:51:10 - AUTOM8 NOTE: Graph Added - Device[2], Graph[20], DS[21]
+2021-02-15 14:51:10 - AUTOM8 NOTE: Graph Added - Device[2], Graph[21], DS[22]
+2021-02-15 14:51:11 - AUTOM8 NOTE: Graph Added - Device[2], Graph[22], DS[23]
+2021-02-15 14:51:11 - AUTOM8 NOTE: Graph Added - Device[2], Graph[23], DS[24]
+2021-02-15 14:51:11 - AUTOM8 NOTE: Graph Added - Device[2], Graph[24], DS[25]
+2021-02-15 14:51:11 - AUTOM8 NOTE: Graph Added - Device[2], Graph[25], DS[26]
+2021-02-15 14:51:12 - AUTOM8 NOTE: Graph Added - Device[2], Graph[26], DS[27]
+2021-02-15 14:51:32 - SYSTEM STATS: Time:4.2846 Method:cmd.php Processes:1 Threads:1 Hosts:2 HostsPerProcess:2 DataSources:27 RRDsProcessed:5
+2021-02-15 14:51:32 - SNMPAGENT WARNING: No notification receivers configured for event: cactiNotifyDeviceFailedPoll (CACTI-MIB), severity: medium
+2021-02-15 14:51:32 - SNMPAGENT WARNING: No notification receivers configured for event: cactiNotifyDeviceDown (CACTI-MIB), severity: high
+2021-02-15 15:02:22 - POLLER: Poller[1] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 655.6 seconds have passed since the last poll!
+2021-02-15 15:02:22 - SYSTEM WARNING: Primary Admin account notifications disabled!  Unable to send administrative Email.
+2021-02-15 15:02:25 - SYSTEM STATS: Time:3.2951 Method:cmd.php Processes:1 Threads:1 Hosts:2 HostsPerProcess:2 DataSources:27 RRDsProcessed:5
+2021-02-15 15:02:25 - SNMPAGENT WARNING: No notification receivers configured for event: cactiNotifyDeviceFailedPoll (CACTI-MIB), severity: medium
+2021-02-15 15:13:40 - AUTH LOGIN: User 'admin' Authenticated
+2021-02-15 15:14:10 - POLLER: Poller[1] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 708.1 seconds have passed since the last poll!
+2021-02-15 15:14:10 - SYSTEM WARNING: Primary Admin account notifications disabled!  Unable to send administrative Email.
+2021-02-15 15:14:13 - SYSTEM STATS: Time:3.3383 Method:cmd.php Processes:1 Threads:1 Hosts:2 HostsPerProcess:2 DataSources:27 RRDsProcessed:5
+2021-02-15 15:14:13 - SNMPAGENT WARNING: No notification receivers configured for event: cactiNotifyDeviceFailedPoll (CACTI-MIB), severity: medium

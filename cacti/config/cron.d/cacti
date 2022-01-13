@@ -1,0 +1,1 @@
+*/5 * * * * www-data /usr/bin/php  /var/www/html/cacti/poller.php 2>&1 >/dev/null | if [ -f /usr/bin/ts ] ; then ts ; else tee ; fi >> /var/log/cacti/poller-error.log
